@@ -1,0 +1,2 @@
+# three-d-touch-web-sample
+iPhone 6s / 6s Plusの3D TouchをWebページで検出するサンプル

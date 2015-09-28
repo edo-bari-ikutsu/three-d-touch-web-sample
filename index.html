@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- JavaScript実装 -->
+    <script src="js/index.js"></script>
+
+    <title>3D TouchをWebページで検出</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>3D TouchをWebページで検出</h3>
+        <p>画面をタッチすると、タッチ圧力をパーセントで表示します。</p>
+
+        <p>
+            タッチ状態：<span id="touch-state"></span>
+            <br /> タッチ圧力：
+            <span id="force-percent"></span>%
+        </p>
+        <div class="progress">
+            <div id="progress-bar" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
